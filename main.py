@@ -72,7 +72,7 @@ while True:
         # rəng — tanıyıb tanımamasına görə
         color = (0, 255, 0) if best_name != "Unknown" else (0, 0, 255)
 
-        # kare və ad yaz
+        # çərçivə və ad yaz
         cv2.rectangle(frame, (x, y), (x + w, y + h), color, 2)
         cv2.putText(
             frame, best_name, (x, y - 10),
